@@ -27,11 +27,11 @@ export const Content = styled.div`
                         border: none;
                     }
                     &:hover  svg  path {
-                        transition: all .2s ease;
+                        transition: all .5s ease !important;
                         stroke: #2B9FBB;        
                     }
 
-                    div svg {                                                
+                    svg {                                                
                         margin-bottom: 5px;
                         margin-left: 20px;
                         margin-right: 14px;                      
@@ -42,7 +42,7 @@ export const Content = styled.div`
 
                     &:hover {
                         color: var(--light-blue);
-                        transition: all .2s ease;
+                        transition: all .3s ease;
                     }
 
                     &:focus {

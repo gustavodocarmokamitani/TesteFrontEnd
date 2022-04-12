@@ -1,9 +1,5 @@
-import { Content } from './styles';
-
-
 const IconCadastro = () => {
     return (
-        <Content>
             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_1_26)">
                     <path d="M13.3333 17.5V15.8333C13.3333 14.9493 12.9821 14.1014 12.357 13.4763C11.7319 12.8512 10.884 12.5 9.99998 12.5H4.16665C3.28259 12.5 2.43475 12.8512 1.80962 13.4763C1.1845 14.1014 0.833313 14.9493 0.833313 15.8333V17.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -16,7 +12,6 @@ const IconCadastro = () => {
                     </clipPath>
                 </defs>
             </svg>
-        </Content>
 
     )
 }

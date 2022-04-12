@@ -1,9 +1,5 @@
-import { Content } from './styles';
-
-
 const IconRH = () => {
     return (
-        <Content>
             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_1_46)">
                     <path d="M14.1667 17.5V15.8333C14.1667 14.9493 13.8155 14.1014 13.1904 13.4763C12.5652 12.8512 11.7174 12.5 10.8333 12.5H4.16668C3.28262 12.5 2.43478 12.8512 1.80965 13.4763C1.18453 14.1014 0.833344 14.9493 0.833344 15.8333V17.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -17,7 +13,6 @@ const IconRH = () => {
                     </clipPath>
                 </defs>
             </svg>
-        </Content>
     )
 }
 

@@ -10,7 +10,7 @@ export function Formulario() {
                     <Col>
                         <Form.Label>Avaliador Principal</Form.Label>
                         <Form.Select aria-label="Default select example">
-                            <option disabled>Selecione</option>
+                            <option >Selecione</option>
                             <option value="1">One</option>
                             <option value="2">Two</option>
                             <option value="3">Three</option>
@@ -25,7 +25,7 @@ export function Formulario() {
                     <Col>
                         <Form.Label>Avaliador Principal</Form.Label>
                         <Form.Select aria-label="Default select example">
-                            <option disabled>Selecione</option>
+                            <option >Selecione</option>
                             <option value="1">One</option>
                             <option value="2">Two</option>
                             <option value="3">Three</option>
@@ -34,8 +34,8 @@ export function Formulario() {
                 </Row>
                 <Row>
                     <Col>
-                        <Buttons text="Cancelar" color="#A4A4A4" />
                         <Buttons text="Continuar" color="#22304E" />
+                        <Buttons text="Cancelar" color="#A4A4A4" />
                     </Col>
                 </Row>
             </Form>

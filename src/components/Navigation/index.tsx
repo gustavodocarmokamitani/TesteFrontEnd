@@ -1,13 +1,13 @@
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Content } from './styles';
-import IconAdministrativo from '../iconsComponents/Administrativo/IconAdministrativo';
-import IconCadastro from '../iconsComponents/Cadastro/IconCadastro';
-import IconFinanceiro from '../iconsComponents/Financeiro/IconFinanceiro';
-import IconLinksExternos from '../iconsComponents/LinkExternos/IconLinksExternos';
-import IconRH from '../iconsComponents/RH/IconRH';
-import IconTI from '../iconsComponents/TI/IconTI';
-import IconTreinamentos from '../iconsComponents/Treinamentos/IconTreinamentos';
 
+import { ReactComponent as Adm } from '../../assets/adm.svg';
+import { ReactComponent as Cadastro } from '../../assets/adm.svg';
+import { ReactComponent as Financeiro } from '../../assets/adm.svg';
+import { ReactComponent as LinksExternos } from '../../assets/adm.svg';
+import { ReactComponent as RH } from '../../assets/adm.svg';
+import { ReactComponent as TI } from '../../assets/adm.svg';
+import { ReactComponent as Treinamentos } from '../../assets/adm.svg';
 
 export function Navigation() {
     return (
@@ -15,13 +15,13 @@ export function Navigation() {
             <Navbar>
                 <Container>
                     <Nav className="me-auto">
-                        <Nav.Link href="#administrativo"><IconAdministrativo /> Administrativo</Nav.Link>
-                        <Nav.Link href="#cadastros-gerais"><IconCadastro/> Cadastros Gerais</Nav.Link>
-                        <Nav.Link href="#financeiro"><IconFinanceiro/>Financeiro</Nav.Link>
-                        <Nav.Link href="#links-externos"><IconLinksExternos/> Externos</Nav.Link>
-                        <Nav.Link href="#rh"><IconRH/>RH</Nav.Link>
-                        <Nav.Link href="#ti "><IconTI/>TI</Nav.Link>
-                        <Nav.Link href="#treinamentos "><IconTreinamentos/>Treinamentos</Nav.Link>
+                        <Nav.Link href="#administrativo"><Adm /> Administrativo</Nav.Link>
+                        <Nav.Link href="#cadastros-gerais"><Cadastro /> Cadastros Gerais</Nav.Link>
+                        <Nav.Link href="#financeiro"><Financeiro />Financeiro</Nav.Link>
+                        <Nav.Link href="#links-externos"><LinksExternos />Links Externos</Nav.Link>
+                        <Nav.Link href="#rh"><RH />RH</Nav.Link>
+                        <Nav.Link href="#ti "><TI />TI</Nav.Link>
+                        <Nav.Link href="#treinamentos "><Treinamentos />Treinamentos</Nav.Link>
                     </Nav>
                 </Container>
             </Navbar>

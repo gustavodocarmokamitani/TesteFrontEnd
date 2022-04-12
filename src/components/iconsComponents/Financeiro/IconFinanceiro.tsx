@@ -1,9 +1,5 @@
-import { Content } from './styles';
-
-
 const IconFinanceiro = () => {
     return (
-        <Content>
             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_1_33)">
                     <path d="M10 0.833344V19.1667" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -15,7 +11,6 @@ const IconFinanceiro = () => {
                     </clipPath>
                 </defs>
             </svg>
-        </Content>
     )
 }
 
