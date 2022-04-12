@@ -1,12 +1,5 @@
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Content } from './styles';
-import adm from '../../assets/adm.svg';
-import cadastro from '../../assets/cadastro.svg';
-import financeiro from '../../assets/financeiro.svg';
-import links_externos from '../../assets/links_externos.svg';
-import rh from '../../assets/rh.svg';
-import ti from '../../assets/ti.svg';
-import treinamentos from '../../assets/treinamentos.svg';
 import IconAdministrativo from '../iconsComponents/Administrativo/IconAdministrativo';
 import IconCadastro from '../iconsComponents/Cadastro/IconCadastro';
 import IconFinanceiro from '../iconsComponents/Financeiro/IconFinanceiro';
