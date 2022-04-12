@@ -17,7 +17,7 @@ export function Header({ name }: Props) {
                     <Nav className="ml-auto">
                         <Nav.Link href="#home">  <img src={email} alt="email" width="29px"/></Nav.Link>
                         <Nav.Link href="#features">       <img src={bell} alt="bell"width="24px" /></Nav.Link>
-                        <Nav.Link href="#pricing"><p>Olá, <strong>{name}!</strong></p></Nav.Link>
+                        <Nav.Link href="#user"><p>Olá, <strong>{name}!</strong></p></Nav.Link>
                     </Nav>
                 </Container>
             </Navbar>
