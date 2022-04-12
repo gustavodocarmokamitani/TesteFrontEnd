@@ -1,35 +1,28 @@
 import { Col, Form, Row } from "react-bootstrap";
 import Buttons from "../Buttons";
+import { Input } from "../Input";
+import { Select } from "../Select";
 import { Content } from "./styles";
 
 export function Formulario() {
+
+    const options = ["One", "Two", "Three"]
+
+
     return (
         <Content>
             <Form>
                 <Row>
                     <Col>
-                        <Form.Label>Avaliador Principal</Form.Label>
-                        <Form.Select aria-label="Default select example">
-                            <option >Selecione</option>
-                            <option value="1">One</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
-                        </Form.Select>
+                        <Select label="Avaliador Principal" option="Selecione" options={options} />
                     </Col>
                     <Col>
-                        <Form.Label>Título da Avaliação</Form.Label>
-                        <Form.Control type="text" placeholder="" />
+                        <Input label="Título da Avaliação" />
                     </Col>
                 </Row>
                 <Row>
                     <Col>
-                        <Form.Label>Avaliador Principal</Form.Label>
-                        <Form.Select aria-label="Default select example">
-                            <option >Selecione</option>
-                            <option value="1">One</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
-                        </Form.Select>
+                        <Select option="Selecionar Projetos" options={options} />
                     </Col>
                 </Row>
                 <Row>
