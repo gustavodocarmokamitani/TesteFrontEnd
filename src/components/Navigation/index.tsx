@@ -2,12 +2,12 @@ import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Content } from './styles';
 
 import { ReactComponent as Adm } from '../../assets/adm.svg';
-import { ReactComponent as Cadastro } from '../../assets/adm.svg';
-import { ReactComponent as Financeiro } from '../../assets/adm.svg';
-import { ReactComponent as LinksExternos } from '../../assets/adm.svg';
-import { ReactComponent as RH } from '../../assets/adm.svg';
-import { ReactComponent as TI } from '../../assets/adm.svg';
-import { ReactComponent as Treinamentos } from '../../assets/adm.svg';
+import { ReactComponent as Cadastro } from '../../assets/cadastro.svg';
+import { ReactComponent as Financeiro } from '../../assets/financeiro.svg';
+import { ReactComponent as LinksExternos } from '../../assets/links_externos.svg';
+import { ReactComponent as RH } from '../../assets/rh.svg';
+import { ReactComponent as TI } from '../../assets/ti.svg';
+import { ReactComponent as Treinamentos } from '../../assets/treinamentos.svg';
 
 export function Navigation() {
     return (
